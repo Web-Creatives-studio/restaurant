@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header*/
+nav{
+    background-color: #fafffb;
+    height: 60px;
+    width: 100%;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    position: sticky;
+    z-index: 1;
+    position: fixed;
+
+}
+.logo{
+    color: #60b22c;
+    font-size: 35px;
+    line-height: 60px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 250px;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-inline: 0.7rem;
+    line-height: 60px;
+    
+}
+nav ul li a{
+    color:black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+li a.active{
+    
+    border-bottom:4px solid #60b22c;
+}
+li a:hover{
+    border-bottom:4px solid #60b22c;
+    transition: 0.5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #60b22c;
+    float: right;
+    line-height: 60px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+ .order{
+    float: right;
+   margin: 8px 70px 0 0;
+    text-decoration: none;   
+}
+.order button{
+    background-color: #60b22c; 
+    padding: 7px 13px;
+    color: #fafffb;
+    font-weight: bold;
+    border: 2px solid #fafffb;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.order button:hover{
+    background-color: #fafffb;
+    border-color: #60b22c;
+    color: #60b22c;
+}
+
+/*hero*/
+.hero-more{
+    color: #FB4A43;
+    font-weight: bold;
+}
+.hero-food{
+    color: #FB4A43;
+}
+
+#hero{
+    background-color: #fafffb;
+    padding: 100px 0 0 0;
+    height: 98vh;
+    
+}
+.hero-text{
+    text-align: left;
+    padding: 60px 0 0 0;
+}
+.hero-con{
+    padding-top: 80px;
+}
+
+.btn-get{
+    background-color: #60b22c;
+    color: #fafffb;
+    width: 150px;
+    height: 50px;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.btn-get:hover{
+    background-color:#fafffb;
+    color:  #60b22c;
+    border: 2px  solid  #60b22c;
+    border-radius: 10px;
+    
+}
+
+.hero-img{
+     padding-bottom: 10px;
+     width: 80%;
+}
+
+/*welcome*/
+
+#welcome{
+    background-color: #fff;
+    height: 100vh;
+}
+.grocery{
+    text-align: center;
+    color: #A48c31;
+    padding-top: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.welcome-con{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+}
+.welcome-img{
+    width: 95%;
+    padding-top: 40px;
+}
+.grocery{
+    text-align: center;
+}
+
+.welcome-well{
+    color: #A48c31;
+    width: 12%;
+    font-weight: bold;
+}
+.welcome-all{
+    font-weight: bold;
+    width: 50%;
+}
+.welcome-p{
+    width: 90%;
+}
+
+
+/*Menu*/
+#Menu{
+    background-color: #E1E5DD;
+}
+.browse{
+    text-align: center;
+    padding: 3% 0 2% 0;
+    font-size: 16px;
+    color: #A48c31;
+}
+.Explore{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.menu{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.menu-items{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    height: 50%;
+    
+}
+.card:hover{
+    border-bottom: 2px solid #60b22c;
+    transition: 0.5s;
+    overflow: visible;
+}
+.chicken-text{
+    color: #A48c31;
+    font-weight: bold;
+}
+
+/*Why Choose Us*/
+.choose-box{
+    text-align: center;
+    
+}
+.box-color{
+    background-color:#fafffb;
+    padding: 3% 2% 2% 2%;
+    border: 1px solid #60b22c;
+}
+.box-color:hover, .choose-text:hover, .icon:hover{
+    background-color: #60b22c;
+    color: white;
+}
+.choose-text{
+    color: #60b22c;
+    padding: 2% 0 1% 0;
+}
+.icon{
+    color: #60b22c;
+    padding: 3% 0 2% 0;
+}
+
+.choose-container{
+  width: 90%;
+  margin: auto;
+  padding: 2% 0 3% 0;
+}
+
+#choose-us{
+    background-color: #E1E5DD;
+}
+
+/*Our Latest News*/
+.News-Container{
+    width: 90%;
+    margin: auto;
+   
+}
+.figure-text1{
+    font-weight: bold;
+    color: #A48c31;
+    font-size: 18px;
+    
+}
+
+.figure-text2{
+    font-weight: 500;
+    
+}
+.figure-text3{
+    text-decoration: none;
+    color: #A48c31;
+    font-size: 18px;
+    
+}
+
+figure{
+   
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+/*Contact*/
+#form-section{
+    background-color:  #E1E5DD;
+    height: 70vh;
+}
+
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+
+.login-box{
+    position: relative;
+    width: 400px;
+    height: 320px;
+    background-color:#fafffb;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.input-box{
+    width: 310px;
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #60b22c;
+    margin:0  auto;
+    
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #60b22c;
+    font-size: 1em;
+    transition: .5s;
+}
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: black;
+    padding: 0 35px 0 5px;
+}
+.input-box input:focus~label,
+.input-box input:valid~label,
+.input-box textarea:focus~label {
+      top:-5px;
+}
+.input-box textarea{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: black;
+    
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    color: #60b22c;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+.login-box form{
+    text-align: center;
+}
+.btn-submit{
+    width: 60%;
+    height: 40px;
+    background-color: #60b22c;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #fafffb;
+    font-weight: 500;
+}
+.btn-submit:hover{
+    background-color: #fafffb;
+    border: 2px solid #60b22c;
+    color: #60b22c;
+}
+.send-message{
+    color: #60b22c;
+    font-weight: bold;
+}
+
+/*Contact*/
+#footer{
+    text-align: center;
+    padding: 1% 0 1% 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafffb;
+}
+.foot{
+    list-style: none;
+}
+.feet{
+    display: inline;
+    margin-inline: 0.5rem;
+}
+
+.feet .icons:hover{
+    color: #60b22c;
+}
+.policy .feet .priv{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+    margin-inline: 1rem;
+    text-decoration: none;
+    color: black;
+ }
+ .feet .priv:hover{
+     color: #60b22c;
+     border-bottom: none;
+ }
+@media (max-width:1198px), (max-width:984px){
+    .logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .checkbtn{
+        display: block;
+       }
+       ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #fafffb;
+        top:60px;
+        left: -100%;
+        text-align: center;
+        transition: all.5s;
+       }
+       nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+       }
+       nav ul li a{
+        font-size: 20px;
+       }
+       a:active, a:hover{
+        background-color: none;
+        color: black;
+       }
+       #check:checked ~ul{
+             left: 0;
+       }
+    .order{
+       display: none; 
+    }
+    .hero-img{
+        width: 90%;
+        padding-top: 40px;
+       }
+       .hero-con{
+        padding-top: 20px;
+       }
+       .hero-text{
+        text-align: left;
+        padding: 100px 0 0 0;
+    }
+
+    .welcome-p{
+        font-size: 14px;
+       }
+       .welcome-all{
+        width: 100%;
+       }
+
+    .card-image{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .news-image{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .form-box{
+        padding-bottom: 100px;
+    }
+}
+@media (max-width:600px), (max-width:990px){
+   .checkbtn{
+    display: block;
+   }
+   ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #fafffb;
+    top:60px;
+    left: -100%;
+    text-align: center;
+    transition: all.5s;
+   }
+   nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+   }
+   nav ul li a{
+    font-size: 20px;
+   }
+   a:active, a:hover{
+    background-color: none;
+    color: black;
+   }
+   #check:checked ~ul{
+         left: 0;
+   }
+/*hero mobile*/
+   .hero-con{
+    padding-top: 100px;
+   }
+   #hero{
+    padding-top: 30px;
+    height: 100vh;
+   }
+   .btn-get{
+    width: 100px;
+    font-size: 14px;
+   }
+   .hero-img{
+    width: 90%;
+    padding-top: 80px;
+   }
+   .lor{
+    font-size: 14px;
+   }
+
+   /*welcome mobile*/
+
+   .grocery{
+    padding-top: 10px;
+   }
+
+   .welcome-con{
+    padding-top: 50px;
+   }
+   .welcome-img{
+    width: 100%;
+    padding-top: 60px;
+   }
+   .welcome-p{
+    font-size: 14px;
+   }
+   .welcome-all{
+    width: 100%;
+   }
+   #welcome{
+    height: 100vh;
+   }
+
+   /*Why Choose Us*/
+   .choose-box{
+    padding: 3% 0 3% 0;
+   }
+  /*form*/ 
+  #form-section{
+    height: 60vh;
+  }
+} 
+
+
+/*header*/
